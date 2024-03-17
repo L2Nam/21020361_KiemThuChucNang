@@ -23,7 +23,7 @@ public class Main {
                 long hocphi = 200 * B;
                 return hocphi + "k";
             } else if (B > 15) {
-                long hocphi = 200 * 15 + 150 * (B - 15);
+                long hocphi = 200 * 15 + 150 * (long)(B - 15);
                 return hocphi + "k";
             }
         }
